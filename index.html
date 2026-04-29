@@ -3,90 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Alchemist | Personal Legend</title>
+    <title>The Alchemist | Personal Legend Project</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="alchemist-icon.png">
 </head>
 <body>
 
-    <div id="progress-container">
-        <div id="progress-bar"></div>
-    </div>
+    <div id="progress-container"><div id="progress-bar"></div></div>
 
     <nav>
-        <div class="logo">Maktub</div>
+        <div class="logo">MAKTUB</div>
         <ul class="nav-links">
-            <li><a href="#about">Author</a></li>
+            <li><a href="#author">Author</a></li>
             <li><a href="#plot">Plot</a></li>
             <li><a href="#characters">Characters</a></li>
             <li><a href="#themes">Themes</a></li>
+            <li><a href="#settings">Settings</a></li>
+            <li><a href="#quotes">Quotes</a></li>
             <li><a href="#reflection">Reflection</a></li>
         </ul>
     </nav>
 
     <header class="hero">
         <div class="hero-content">
+            <img src="banner.png" alt="The Alchemist" class="hero-image-overlay">
             <h1>The Alchemist</h1>
-            <p>By Paulo Coelho</p>
-            <a href="#about" class="btn">Begin the Journey</a>
+            <p class="subtitle">A Journey Toward Your Personal Legend</p>
+            <a href="#author" class="btn">Begin the Journey</a>
         </div>
     </header>
 
     <main>
-        <section id="about" class="reveal">
-            <h2>About Paulo Coelho</h2>
-            <div class="content-grid">
-                <p>Born in Rio de Janeiro in 1947, Coelho’s life was a journey of its own—from a rebellious youth to a world-renowned author. Published in 1988, <i>The Alchemist</i> became a global sensation, teaching millions that "when you want something, all the universe conspires in helping you to achieve it."</p>
+        <section id="author" class="reveal">
+            <h2>1. About the Author</h2>
+            <div class="card-large">
+                <p><strong>Paulo Coelho</strong> is a world-renowned Brazilian author. Born in Rio de Janeiro in 1947, he led a rebellious youth before following a path of spiritual self-discovery that inspired <i>The Alchemist</i>. Published in 1988, the book has been translated into over 80 languages, holding a Guinness World Record. Coelho's writing focuses on destiny, spirituality, and the courage to pursue one's dreams.</p>
             </div>
         </section>
 
         <section id="plot" class="reveal">
-            <h2>The Plot</h2>
-            <div class="timeline">
-                <div class="step"><h3>The Dream</h3><p>Santiago, an Andalusian shepherd, dreams of treasure at the pyramids.</p></div>
-                <div class="step"><h3>The Sacrifice</h3><p>He sells his sheep and travels to Africa, where he is robbed and works for a crystal merchant.</p></div>
-                <div class="step"><h3>The Desert</h3><p>He joins a caravan, meets an Englishman, and eventually finds the Alchemist at an oasis.</p></div>
-                <div class="step"><h3>The Revelation</h3><p>He reaches the pyramids only to find that the treasure was at the church where he started.</p></div>
+            <h2>2. Plot Summary</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">1</div>
+                    <h3>The Departure</h3>
+                    <p>Santiago, an Andalusian shepherd, travels from Spain to Africa following a recurring dream of hidden treasure at the Egyptian Pyramids.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">2</div>
+                    <h3>The Trials</h3>
+                    <p>He is robbed in Tangier and forced to work for a crystal merchant for a year. He eventually joins a caravan crossing the vast Sahara desert.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">3</div>
+                    <h3>The Destination</h3>
+                    <p>After meeting the Alchemist, he reaches the pyramids only to realize the treasure was buried under the tree where his journey began.</p>
+                </div>
             </div>
         </section>
 
         <section id="characters" class="reveal">
-            <h2>Key Characters</h2>
-            <div class="card-container">
-                <div class="card"><h3>Santiago</h3><p>The determined dreamer.</p></div>
-                <div class="card"><h3>Melchizedek</h3><p>The King of Salem/The Catalyst.</p></div>
-                <div class="card"><h3>The Alchemist</h3><p>The spiritual guide.</p></div>
-                <div class="card"><h3>Fatima</h3><p>The desert love interest.</p></div>
+            <h2>3. Characters</h2>
+            <div class="grid-2">
+                <div class="card"><strong>Santiago:</strong> The protagonist; an adventurous shepherd seeking his destiny and representing the human quest for purpose.</div>
+                <div class="card"><strong>Melchizedek:</strong> The mysterious King of Salem who explains the "Personal Legend" and gives Santiago the stones Urim and Thummim.</div>
+                <div class="card"><strong>The Alchemist:</strong> A powerful desert mentor who understands the Soul of the World and guides Santiago through his final tests.</div>
+                <div class="card"><strong>Fatima:</strong> A woman of the desert who teaches Santiago about true, selfless love that encourages rather than holds back.</div>
             </div>
         </section>
 
         <section id="themes" class="reveal">
-            <h2>Themes & Symbols</h2>
-            <div class="table-container">
-                <table>
-                    <tr><th>Element</th><th>Significance</th></tr>
-                    <tr><td>Personal Legend</td><td>Your ultimate mission in life.</td></tr>
-                    <tr><td>Urim & Thummim</td><td>Guidance and reading omens.</td></tr>
-                    <tr><td>The Desert</td><td>A place of testing and growth.</td></tr>
-                </table>
+            <h2>4. Core Themes</h2>
+            <div class="grid">
+                <div class="card theme-card">
+                    <h3>The Personal Legend</h3>
+                    <p>The central belief that everyone has a singular, destined mission to fulfill in their lifetime to achieve true happiness.</p>
+                </div>
+                <div class="card theme-card">
+                    <h3>The Soul of the World</h3>
+                    <p>The spiritual principle that everything in the universe—humans, the desert, the wind—is connected and speaks the same language.</p>
+                </div>
+                <div class="card theme-card">
+                    <h3>Conquering Fear</h3>
+                    <p>The idea that the fear of suffering or failure is a much greater obstacle than the failure itself.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="settings" class="reveal">
+            <h2>5. Settings and Symbols</h2>
+            <div class="card-large">
+                <p><strong>The Sahara Desert:</strong> Represents the difficult, barren journey of life and the silence needed to truly listen to your heart.</p>
+                <hr>
+                <p><strong>The Sheep:</strong> Symbolize everyday people who are content with basic survival and are too afraid to leave their comfort zones.</p>
+                <hr>
+                <p><strong>Urim & Thummim:</strong> The black and white stones that represent the guidance of the universe when making tough decisions.</p>
+            </div>
+        </section>
+
+        <section id="quotes" class="reveal">
+            <h2>6. Important Quotes</h2>
+            <div class="quote-box">
+                <blockquote>"And, when you want something, all the universe conspires in helping you to achieve it."</blockquote>
+                <p class="quote-meaning"><strong>What it means to me:</strong> This shows that if you have a clear goal, the world and your fate will give you oppurtinities. You just have to be brave enough to put in the hard work and look for the signs.</p>
             </div>
         </section>
 
         <section id="reflection" class="reveal">
-            <h2>Personal Reflection & Quotes</h2>
-            <div class="quote-box">
-                <blockquote>"It's the possibility of having a dream come true that makes life interesting."</blockquote>
-                <p>To me, this means that even if the journey is hard, the hope of reaching the goal is what keeps life exciting.</p>
+            <h2>7. Personal Reflection</h2>
+            <div class="card-large highlight-card">
+                <p>Reading this novel completely changed how we view the path to success. It taught us that the treasure isn't always a physical reward at the end of a journey, it's the resilience, growth, and wisdom we achieve up along the way. Santiago's story reminds us that obstacles are just part of the process. <i>The Alchemist</i> showed us that by supporting each other and staying focused on what truly matters to us, we can navigate our own challenges and move closer to our 'Personal Legends'.</p>
             </div>
-            <p class="reflection-text">
-                Reading this novel made me realize that obstacles are just part of the process. Whether it's coding or school, we have to keep going.
-            </p>
+        </section>
+
+        <section id="refs" class="reveal">
+            <h2>8. References</h2>
+            <ul class="ref-list">
+                <li>Coelho, P. (1988). <i>The Alchemist</i>. HarperOne.</li>
+                <li>Biography of Paulo Coelho. <i>Encyclopedia Britannica</i>.</li>
+                <li>The Paulo Coelho Foundation Official Website.</li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>Project Deadline: April 30, 2026 | Created by Himmat Singh Dhaliwal</p>
-        <div class="refs">References: Coelho, P. (1988). The Alchemist. HarperCollins.</div>
+        <p><strong>Himmat Singh Dhaliwal and Udhaybir Singh Khaira</strong></p>
     </footer>
 
     <script src="script.js"></script>
